@@ -1,0 +1,23 @@
+@font-face {
+    font-family: NRL;
+    src: url(fonts/nrl.ttf);
+  }
+    
+  @font-face {
+    font-family: MOLE;
+    src: url(fonts/VictorMono-Italic-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: MOLEN;
+    src: url(fonts/VictorMono-VariableFont_wght.ttf);
+  }
+  
+  .--font-NRL {
+    font-family: NRL !Important;
+  }
+  .--font-MOLE {
+    font-family: MOLE !Important;
+  }
+  .--font-MOLEN {
+    font-family: MOLEN !Important;
+  }

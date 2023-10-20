@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+    font-family: MOLEN;
+}
+
+.form {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+input :not(.inputFul){
+    color: red;
+}
+
+input:active {
+    box-shadow: 0 0 10px black;
+}
+
+input:focus { 
+    box-shadow: 0 0 5px black;
+}
+
+.inputFul {
+    width: 97%;
+    margin-top: 10px;
+    border: 2px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.oneBox {
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+textarea {
+    border: 2px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.resetButton {
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.nextButton {
+    border: 2px solid cyan;
+    font-size: 20px;
+    background-color: cyan;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}

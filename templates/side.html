@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../data/fonts.css">
+    <style>.vertical-sidebar-ad {
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 250px; /* Set the desired width for your sidebar ad */
+      }
+      
+      .ad-close {
+        width: 35px;
+        margin-bottom: 10px; /* Add space between the close button and label */
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+      }
+
+      .ad-close:hover {
+    box-shadow: 0 0 10px black;
+    width: 40px;
+    rotate: 90deg;
+  }
+  
+      .ad-label {
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px; /* Add space between the label and content */
+      }
+      
+      .ad-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .ad-image {
+        width: 150px;
+        margin-bottom: 10px; /* Add space between the image and text */
+      }
+      
+      .ad-title {
+        font-family: "NRL", sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0;
+      }
+      
+      .ad-text {
+        font-size: 1rem;
+        font-family: "NRL", sans-serif;
+        font-weight: bold;
+        text-align: center; /* Center-align the text */
+      }
+      
+      .ad-link {
+        text-decoration: none;
+        color: #007bff; /* You can change the link color as desired */
+      }
+      
+    </style>
+</head>
+<body><div class="vertical-sidebar-ad" id="ad">
+    <img src="../data/close.png" alt="" class="ad-close" onclick="adClose()">
+    <img src="../data/AD.png" alt="" class="ad-label">
+    <div class="ad-content">
+      <img src="../data/blog-2.jpg" alt="" class="ad-image">
+      <div class="ad-text">
+        <h2 class="ad-title">AD Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto amet magnam minus odit, sit necessitatibus sint dolor non hic! Consectetur!
+        </p>
+        <a href="@lorem" class="ad-link">Learn More</a>
+      </div>
+    </div>
+  </div>
+  
+      
+<script>
+    const adContainer = document.getElementById('ad');
+function adClose() {
+    localStorage.setItem('isAdClosed', "true");
+    /*adContainer.style.display = "none";*/
+    adContainer.style.display = "none";
+
+}
+</script>
+</body>
+</html>

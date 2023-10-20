@@ -1,0 +1,144 @@
+
+.ad-bar-frame {
+    opacity: 1;
+    width: 100%;
+    height: 190px;
+}
+
+.ad {
+    font-family: NRL;
+    border: 2px solid rgb(0, 128, 128);
+    background-color: rgb(58, 211, 231);
+    box-shadow: 0 0 10px black;
+    color: rgb(0, 0, 0) !important;
+    padding: 10px;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    max-width: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.ad .ad-close {
+    cursor: pointer;
+    text-decoration: none;
+    font-size:15px ;
+    color: red;
+    position: absolute;
+    right: 0;
+    width: 35px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.ad .ad-close:hover {
+    rotate: 90deg;
+    width: 40px;
+    box-shadow: 0 0 10px black;
+}
+
+
+.ad .ad-picture {
+    display: none;
+    position: absolute;
+    border: 2px solid  teal;
+    border-radius: 15px;
+    width: 120px;
+    height: auto;
+}
+
+.ad
+.ad-title,
+.ad-text,
+.ad-link {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ad
+.ad-text,
+.ad-link{
+    font-size: 15px;
+}
+
+.ad-title {
+    font-size: 150%;
+}
+
+.ad .ad-link {
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+}
+
+.ad .ad-label {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    position: absolute;
+    font-size: 15px;
+    margin: 0px;
+    width: 35px;
+    height: auto;
+}
+.bd {
+    cursor: pointer;
+}
+
+/*AD BAR*/
+
+.ad-bar {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.ab-content {
+    cursor: pointer;
+}
+
+.ab-close {
+    position: absolute;
+    right: 15px;
+    width: 35px;
+}
+
+.ab-label {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 35px;
+}
+
+.ab-img {
+    margin-top: 50px;
+    width: 150px;
+}
+
+.ab-title {
+    position: absolute;
+    top: 35px;
+    left: 170px;
+    font-family: NRL;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.ab-text {
+    position: absolute;
+    top: 75px;
+    font-size: 100%;
+    font-family: NRL;
+    font-weight: bold;
+    left: 170px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../data/fonts.css">
+<style>.ad-bar {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .ad-bar:hover {
+    box-shadow: 0 0 5px black;
+  }
+  
+  .ab-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .ab-close:hover {
+    box-shadow: 0 0 10px black;
+    width: 40px;
+    rotate: 90deg;
+  }
+  
+  .ab-label {
+    opacity: 0.7;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ab-content {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .ab-img {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .ab-title {
+    font-family: "NRL", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .ab-text {
+    font-size: 1rem;
+    font-family: "NRL", sans-serif;
+    font-weight: bold;
+  }
+  
+  .ab-link {
+    text-decoration: none;
+    color: #007bff; /* You can change the link color as desired */
+  }
+  
+  </style>
+
+</head>
+<body>
+    <div class="ad-bar" id="ad">
+  <img src="../data/close.png" alt="" class="ab-close" onclick="adClose()">
+  <img src="../data/AD.png" alt="" class="ab-label">
+  <div class="ab-content">
+    <img src="../data/blog-2.jpg" alt="" class="ab-img">
+    <div class="ab-text">
+      <h2 class="ab-title">AD Title</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto amet magnam minus odit, sit necessitatibus sint dolor non hic! Consectetur!
+      </p>
+      <a href="@lorem" class="ab-link">Lorem</a>
+    </div>
+  </div>
+</div>
+<script>
+    const adContainer = document.getElementById('ad');
+function adClose() {
+    localStorage.setItem('isAdClosed', "true");
+    /*adContainer.style.display = "none";*/
+    adContainer.style.display = "none";
+
+}
+</script>
+</body>
+</html>

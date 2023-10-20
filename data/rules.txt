@@ -1,0 +1,39 @@
+No NSFW Content: Absolutely avoid any explicit or adult content in your advertisements.
+
+Truthful and Accurate Information: Advertisements must provide accurate and clear information without any misleading claims.
+
+Respect Privacy: Always respect the privacy of users. Do not collect or use personal information without proper consent.
+
+Avoid Offensive Content: Ads should steer clear of offensive language or imagery, and should not discriminate against any group.
+
+Copyright Compliance: Use content that you have the rights to or content that is properly licensed. Respect copyright laws.
+
+Clear Call to Action (CTA): Include a clear and actionable message that guides users on what to do next.
+
+Mobile Optimization: Ensure the ad is mobile-friendly given the prevalence of mobile browsing.
+
+Page Load Speed: Ads should not significantly slow down the web page's loading time to maintain a positive user experience.
+
+Ad Placement: Choose ad placements that do not disrupt the main content of the website or the user experience.
+
+Ad Blocking Detection: Implement ad blocking detection mechanisms or encourage users to support the site by disabling ad blockers respectfully.
+
+A/B Testing: Experiment with different ad variations to find the most effective design, messaging, and placement.
+
+Ad Retargeting: If using retargeting, be mindful of the frequency of ads shown to prevent overexposure and annoyance.
+
+Transparency: Clearly label ads as such to distinguish them from regular content and follow industry standards for ad disclosure.
+
+Geotargeting: Use geotargeting responsibly, respecting users' locations and privacy.
+
+Landing Page Quality: Ensure that the landing pages your ads link to provide value and align with the ad's message.
+
+Ad Tracking: Be transparent about ad tracking and allow users to opt out if possible.
+
+Accessibility: Design ads with accessibility in mind to accommodate all users, including those with disabilities.
+
+Data Protection: Comply with data protection regulations, such as GDPR, if applicable.
+
+Frequency Capping: Limit the number of times a user sees the same ad to avoid annoyance.
+
+Test, Analyze, and Iterate: Continuously monitor ad performance, gather data, and adjust the ad strategy to improve results.
